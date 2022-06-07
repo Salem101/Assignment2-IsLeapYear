@@ -20,9 +20,8 @@ int main()
 
         }
     }
-    else{
     printf("%d%s", year, " was not a leap year");
-    }
+
     return 0;
 
 }
