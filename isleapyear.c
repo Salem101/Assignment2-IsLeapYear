@@ -7,7 +7,7 @@ int main(int argc,char* argv[])
     if((argc%4)==0)
     {
         printf("\nNo Extra Command Line Argument Passed Other Than Program Name");
-        if((argc%100)!=0) || if ((argc%400)==0)
+        if(((argc%100)!=0) || if ((argc%400)==0))
         {
             printf("%d%s", argc, " was a leap year");
         }
