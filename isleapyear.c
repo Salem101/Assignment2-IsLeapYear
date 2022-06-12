@@ -2,8 +2,6 @@
 
 int main(int argc,char* argv[])
 {
-    int counter;
-    printf("Program Name Is: %s",argv[0]);
     if((argc%4)==0)
     {
         if((argc%100)!=0) || if ((argc%400)==0)
