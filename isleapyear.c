@@ -4,7 +4,7 @@ int main(int argc,char* argv[])
 {
     int counter;
     printf("Program Name Is: %s",argv[0]);
-    if(argc%4==0 && (argc%100 !=0 || argc%400 == 0)
+    if(argc%4==0 && (argc%100 !=0 || argc%400 == 0))
     {
         printf("%d%s", argc, " was a leap year");
     }
