@@ -1,25 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
 
-int main()
+int main(int argc,char* argv[])
 {
-    int year;
-    printf("Enter year");
-    scanf("%d", &year);
-
-    if((year%4)==0)
+    int counter;
+    printf("Program Name Is: %s",argv[0]);
+    if((argc%4)==0)
     {
-
-        if((year%100)!=0) || ((year%400)==0)
+        printf("\nNo Extra Command Line Argument Passed Other Than Program Name");
+        if((argc%100)!=0) || ((argc%400)==0)
         {
-            {
-            printf("%d%s", year, " was a leap year");
-            }
-
+            printf("%d%s", argc, " was a leap year");
         }
     }
-    printf("%d%s", year, " was not a leap year");
-
+    printf("%d%s", argc, " was not a leap year");
     return 0;
-
 }
