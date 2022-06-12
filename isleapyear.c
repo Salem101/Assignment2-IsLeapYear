@@ -6,6 +6,7 @@ int main(int argc,char* argv[])
     {
         printf("%d%s", argc, " was a leap year");
     }
-    printf("%d%s", argc, " was not a leap year");
+    else: 
+       printf("%d%s", argc, " was not a leap year");
     return 0;
 }
